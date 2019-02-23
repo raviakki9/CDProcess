@@ -15,3 +15,33 @@
   513  git config --global user.email clouddevopsautomation@hotmail.com
   514  git config --list
   515  git push origin master
+  
+  501  git branch --help
+  502  git branch
+  503  hit log
+  504  git log
+  505  git log --oneline
+  506  git branch devbranch
+  507  git branch
+  508  git checkout devbranch
+  509  git log --oneline
+  510  git branch
+  511  touch DEv
+  512  git add . && git commit -m "dev file"
+  513  git status
+  514  git log --oneline
+  515  git branch releasebranch
+  516  git branch
+  517  git checkout master
+  518  git log --oneline
+  519  git cherry-pick 4ee05c1
+  520  git log --oneline
+  521  ls
+  522  ls -l DEv
+  523  git log -1
+  524  git checkout devbranch
+  525  git rebase master
+  526  git log --oneline
+  527  git checkout master
+  528  git log --oneline
+
