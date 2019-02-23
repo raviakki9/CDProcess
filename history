@@ -1,0 +1,17 @@
+23-feb -2019
+
+  501  git init
+  502  git remote add origin https://github.com/cdautomation/CDProcess.git
+  503  git pull origin master
+  504  git status
+  505  git add .
+  506  git config --global core.autocrlf true
+  507  git config --global core.autocrlf input
+  508  git status
+  509  git commit -a -m "CD process"
+  510  git status
+  511  git push origin master
+  512  git config --list
+  513  git config --global user.email clouddevopsautomation@hotmail.com
+  514  git config --list
+  515  git push origin master
