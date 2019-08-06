@@ -4,11 +4,11 @@ node
  
    stage ('Package')
    { 
-      bat 'mvn clean package'    
+      sh 'mvn clean package'    
    }
    stage ('site')
    {
-   bat 'mvn site'
+   sh 'mvn site'
    }
    
 }  
