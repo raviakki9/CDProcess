@@ -6,11 +6,6 @@ node
    { 
       sh 'mvn clean package'    
    }
-   stage ('site')
-   {
-   sh 'mvn site'
-   }
-   
 }  
  
 
