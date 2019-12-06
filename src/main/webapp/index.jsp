@@ -73,7 +73,7 @@ span.psw {
 </head>
 <body>
 
-<h2>Login Form</h2>
+<h2>Ravi Login Form</h2>
 
 <form action="/action_page.php">
   <div class="imgcontainer">
@@ -81,10 +81,10 @@ span.psw {
   </div>
 
   <div class="container">
-    <label for="uname"><b>Enter Jenkinsname</b></label>
+    <label for="uname"><b>Enter Jenkins Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
              
-    <label for="psw"><b>Please Enter Password /b></label>
+    <label for="psw"><b>Please Enter Password ></label>
     <input type="password" placeholder="Enter  Password" name="psw" required>
         
     <button type="submit">Login</button>
